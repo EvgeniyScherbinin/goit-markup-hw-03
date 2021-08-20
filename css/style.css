@@ -1,0 +1,213 @@
+
+/* цвет основного текста #212121 */
+
+/* цвет вторичного текста #757575 */
+
+/* акцент #2196F3 */
+
+/* белый #FFFFFF */
+
+:root {
+    --accent-color: #2196F3;
+    --primary-text-color: #757575;
+    --title-color: #212121;
+    --background-color: #FFFFFF;
+    --hero-background: #2F303A;
+    --portfolio-button: #F5F4FA; 
+
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #757575;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+
+
+.list {
+    list-style-type:none;
+}
+.site-nav-list {
+    list-style-type:none;
+}
+
+
+
+/* logo */
+.logo-first {
+    color: var(--accent-color);
+    font-family: "Raleway";    
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 1.2;
+    
+}
+.logo-second {
+    color: var(--title-color);
+    font-family: "Raleway";    
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 1.2;
+    
+}   
+/* site-nav */
+
+.site-nav-list .link {
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+.site-nav-list .link:hover,
+.site-nav-list .link:focus,
+.site-nav-list .link.current {
+    color: var(--accent-color);
+}
+
+
+/* Адрес */
+.header-adress {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.header-adress:hover,
+.header-adress:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+    background-color: var(--hero-background);
+}
+
+.hero-title {
+    color: var(--background-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+
+}
+
+.button {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 1.9;
+    
+}
+
+/* Преимущества */
+
+.advantage-title {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.advantage-paragraph {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Чем мы занимаемся */
+
+.section-title {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+
+/* Наша команда */
+
+.team-title {
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team-paragraph {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* Футер */
+.logo-second-footer{
+    color: var(--background-color);
+    font-family: "Raleway";    
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.footer {
+    background-color: var(--hero-background);
+}
+.footer-adress {
+    color: var(--background-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.footer-contacts {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer-contacts:focus,
+.footer-contacts:hover {
+    color: var(--accent-color);
+}
+
+
+/* Портфолио */
+
+/* Портфолио хедер */
+
+
+
+.portfolio-title {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-paragraph {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+.portfolio-button {
+    background-color: var(--portfolio-button);
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
+
